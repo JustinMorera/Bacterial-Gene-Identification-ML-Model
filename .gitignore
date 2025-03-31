@@ -2,6 +2,14 @@
 *.gbff
 *.gz
 
+# Hugging Face model checkpoints
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.pth
+dnabert-finetuned/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
