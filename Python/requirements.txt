@@ -1,0 +1,10 @@
+biopython==1.85                # For SeqIO, Entrez, CompoundLocation
+intervaltree==3.1.0            # For efficient gene location lookup
+matplotlib==3.10.0             # For plotting and ConfusionMatrixDisplay
+numpy==2.2.3                   # For numerical ops and flattening
+python-dotenv==1.0.1           # For loading Entrez email/key
+requests==2.32.3               # For Entrez or API interactions
+scikit-learn==1.6.1            # For ML metrics, preprocessing, random forest
+scipy==1.15.2                  # Used with sklearn
+torch==2.6.0+cu118             # For training and inference
+transformers==4.50.3           # For DNABERT model + tokenizer
