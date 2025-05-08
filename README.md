@@ -53,8 +53,11 @@ pip install -r requirements.txt
 ## Usage
 ### Setup .env
 - Create a file named `.env` in root project directory (ex.: `BACTERIAL-GENE-IDENTIFICATION-ML-MODEL/`) and add the following:
-```NCBI_EMAIL="example@email.com"
-NCBI_API_KEY="YourNCBIEntrezAPIKey"```
+```
+NCBI_EMAIL="example@email.com"
+NCBI_API_KEY="YourNCBIEntrezAPIKey"
+```
+
 If you do not already have an Entrez API Key:
 Register for an NCBI account at https://www.ncbi.nlm.nih.gov/account/ and create an Entrez API key under "API Key Management" in your account settings.
 This will increase your rate limits and improve reliability for downloading larger sets of genomic data.
